@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Concrete\ADONET\" />
+    <Folder Include="Concrete\Dapper\" />
+    <Folder Include="CrossCuttingConcern\Log\" />
+    <Folder Include="CrossCuttingConcern\Crypto\" />
+    <Folder Include="CrossCuttingConcern\Communication\" />
+    <Folder Include="CrossCuttingConcern\Validation\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
+  </ItemGroup>
+
+</Project>
